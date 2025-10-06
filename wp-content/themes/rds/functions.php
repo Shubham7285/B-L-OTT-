@@ -2290,11 +2290,15 @@ function check_required_plugins() {
 
 add_action('admin_init', 'check_required_plugins');
 
-if (version_compare(POLARIS_RDS_VERSION, '4.0', '>=')) {
+/* START #20-12-2024 */
+/* Commeting below code #20-12-2024 for the wp dashboard load fix - further update : TBD */
+
+/*if (version_compare(POLARIS_RDS_VERSION, '4.0', '>=')) {
     require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
     require_once get_template_directory() . '/inc/required_plugins.php';
-}
+}*/
 
+/* END */
 
 function enqueue_child_theme_styles() {
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');

@@ -296,7 +296,7 @@ public $widgetPathFull;
             var CouponsubTitle = jQuery(attr).parent('.coupon_name').find('.coupon_subtitle').text();
             var Couponsubheading = jQuery(attr).parent('.coupon_name').find('.coupon_sub_heading ').text();
             console.log(CouponTitle + " " + CouponsubTitle + " " + Couponsubheading)
-            jQuery(".coupon-name").find('input:text').val(CouponsubTitle + " " + CouponTitle + " " + Couponsubheading);
+            jQuery(".coupon-name").find('input:text').val(CouponTitle + " " + CouponsubTitle + " " + Couponsubheading);
             jQuery(".bc-promotion-title").text(CouponTitle + " " + CouponsubTitle + " " + Couponsubheading);
         }
 

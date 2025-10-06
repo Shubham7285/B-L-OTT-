@@ -4,9 +4,9 @@
             <div class="row">
                 <div class="col-lg-7 offset-lg-5 px-0 px-lg-3">
                     <div class="hero_banner_form_background color_secondary_bg position-relative py-4 px-lg-5 px-4 elementor-form-b">
-                        <h4 class="text-center mb-0 pt-2">
+                        <h2 class="h2-alt text-lg-start text-center mb-0 pt-2">
                             <?php echo !empty($args["globals"]["hero"]["form_heading"]) ? $args["globals"]["hero"]["form_heading"] : ''; ?>
-                        </h4>
+                        </h2>
                         <?php
                      
                         ?>

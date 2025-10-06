@@ -27,16 +27,16 @@ if (is_array($get_alt_text)) {
                 </div>
                 <div class="col-sm-12 col-lg-6 text-center py-lg-0 py-4">
                     <?php if (!empty($args["globals"]["financing"]["heading"])): ?>
-                        <h6 class="pb-lg-2"><?php echo esc_html($args["globals"]["financing"]["heading"]); ?></h6>
+                        <h6 class="h6-alt"><?php echo esc_html($args["globals"]["financing"]["heading"]); ?></h6>
                     <?php endif; ?>
                     <?php if (!empty($args["globals"]["financing"]["subheading"])): ?>
-                        <h4 class="mt-2 mb-0 d-block"><?php echo esc_html($args["globals"]["financing"]["subheading"]); ?></h4>
+                        <h4 class="h4-alt mt-2 mb-0 d-block"><?php echo esc_html($args["globals"]["financing"]["subheading"]); ?></h4>
                     <?php endif; ?>
                 </div>
                 <div class="col-sm-12 col-lg-3 text-center text-lg-end">
                     <?php if (!empty($args["globals"]["financing"]["button_text"]) && !empty($args["globals"]["financing"]["button_link"])): ?>
                         <a href="<?php echo esc_url(get_home_url() . $args["globals"]["financing"]["button_link"]); ?>" class="no_hover_underline">
-                            <button type="button" class="btn btn-secondary mw-250 mh-50">
+                            <button type="button" class="btn btn-secondary">
                                 <?php echo esc_html($args["globals"]["financing"]["button_text"]); ?>
                             </button>
                         </a>
